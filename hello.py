@@ -1,13 +1,4 @@
-x=10
-y=20
-#  swapping numbers
+#!/usr/bin/python2
 
-x,y=y,x
+print "Hello World"
 
-print  x
-print  y
-
-#  adding two numbers
-
-print  "addition of two numbers ",x+y
- 
