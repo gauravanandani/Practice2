@@ -1,0 +1,34 @@
+Data Science:
+--Big Data--HDFS(for data storage)(NN & DN)(Storage Engine)
+	  --MapReduce(Job tracker,Tast Tracker) --->
+						    Diistributed process
+	  --YARN(RM,NM)				--->
+
+Yarn---run file jar--java--jvm--....
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+Queries:
+* wordcount
+* grep
+* sudoku
+* banch marking
+
+ipTables -F =---for off firewall
+
+
+jar files -- share/hadop/mapreduce/ ;;map reduce jar files
+
+top cmd for check cpu
+
+BenchMarking:- Test our capacity the limitations
+	For teragen -> Rows(1 row size is 100 bytes)
+For sort is Terasort
+	    Teravalidity
+
+Slashbigdata//for bdh//blog
+
+*Data Visualization: 
+
+in python3 tkinter will add support of GUI.
+install pip3
+
+slashlinuxcode data visualiztion//blog
