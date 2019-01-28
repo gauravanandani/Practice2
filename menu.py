@@ -2,6 +2,8 @@
 
 import  webbrowser,time
 import  commands
+import platform
+
 options='''
 Press  1  to  check your OS version  :
 Press  2  to  login your facebook account   :
@@ -15,7 +17,7 @@ choice=raw_input()
 
 
 if    int(choice)  ==  1  :
-	print  "MY OS is RHEL "
+	execfile('menuos.py')
 
 elif  int(choice) ==  3: 
 	execfile('cpu_ram_check.py')

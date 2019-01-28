@@ -11,7 +11,7 @@ auth=tweepy.OAuthHandler(consumer_key,consumer_sec)
 access_key='2444201649-VoPPCk8aPzHwQgU6gskEqLEU8iIZkKiKsizw12H'
 secret_key='O1RqNilViFvh02FLdeTdSmcLGPjHB8A2IuY5mcH3o9qwp'
 #  connecting  data server  with  access and secret key  by using above token
-print(dir(auth))
+#print(dir(auth))
 auth.set_access_token(access_key,secret_key)
 #  connecting to twitter api with  token that is stored in auth
 connected=tweepy.API(auth)
